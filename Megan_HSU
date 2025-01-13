@@ -1,161 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hsu Chen Wei - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        .container {
-            max-width: 900px;
-            margin: 2rem auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #4CAF50;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 0.5rem;
-        }
-        .section {
-            margin-bottom: 2rem;
-        }
-        .contact-info {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .contact-info a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-        .skills span {
-            background: #4CAF50;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #4CAF50;
-            color: white;
-            margin-top: 2rem;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hsu Chen Wei - Personal Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    nav {
+      background: #343a40;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .content p, .content ul, .content li {
+      margin-bottom: 10px;
+    }
+
+    .content ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background: #343a40;
+      color: white;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+
+      section {
+        padding: 15px;
+      }
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Hsu Chen Wei (Megan)</h1>
+    <p>Bachelor of Business Administration | University of Hong Kong</p>
+  </header>
 
-<header>
-    <h1>Hsu Chen Wei (Megan) - Resume</h1>
-</header>
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#experience">Professional Experience</a>
+    <a href="#activities">Extracurricular Activities</a>
+    <a href="#skills">Skills & Interests</a>
+  </nav>
 
-<div class="container">
-    <div class="contact-info">
-        <p><strong>Phone:</strong> +852 65708870</p>
-        <p><strong>Email:</strong> <a href="mailto:meganxcw@outlook.com">meganxcw@outlook.com</a></p>
+  <section id="education">
+    <h2>Education</h2>
+    <div class="content">
+      <p><strong>The University of Hong Kong</strong> (2022-2026)</p>
+      <ul>
+        <li>Major: Bachelor of Business Administration in Marketing</li>
+        <li>Minor: Information Systems and Analytics</li>
+        <li>Relevant Coursework: Global Marketing, Leadership, Digital Marketing, Marketing Analytics, Consumer Behaviour, Business Programming, Database Management, etc.</li>
+      </ul>
+      <p><strong>Shanghai Singapore International School</strong> (2020-2022)</p>
+      <ul>
+        <li>International Baccalaureate Diploma Program (IBDP)</li>
+      </ul>
     </div>
+  </section>
 
-    <div class="section">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <strong>The University of Hong Kong</strong> - Hong Kong, China (2022-2026)<br>
-                Major: Bachelor of Business Administration (Marketing), Minor in Information Systems and Analytics<br>
-                Relevant Courses: Global Marketing, Leadership, Digital Marketing, Marketing Analytics, Consumer Behaviour, etc.
-            </li>
-            <li>
-                <strong>Shanghai Singapore International School</strong> - Shanghai, China (2020-2022)<br>
-                International Baccalaureate Diploma Program (IBDP)
-            </li>
-        </ul>
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div class="content">
+      <p><strong>L'Oréal</strong> - Summer Intern, Finance Controlling Department (May-August 2023)</p>
+      <ul>
+        <li>Prepared and analyzed financial reports using Microsoft Excel.</li>
+        <li>Ensured accuracy of financial records and reconciled statements using SAP.</li>
+        <li>Presented financial summaries to senior management during weekly meetings.</li>
+      </ul>
+      <p><strong>Chayora Limited</strong> - Summer Intern, Marketing Department (June-August 2024)</p>
+      <ul>
+        <li>Participated in brand refresh training for employees.</li>
+        <li>Assisted with the website revamp project, adding SEO-friendly content.</li>
+      </ul>
+      <p><strong>Texas Instruments</strong> - Summer Intern, Security & Admin Support Department (August 2021)</p>
+      <ul>
+        <li>Assisted in business project consulting and administrative tasks.</li>
+        <li>Inputted employee data and coordinated with the HR department.</li>
+      </ul>
+      <p><strong>CTC Capital</strong> - Summer Intern (July 2021)</p>
+      <ul>
+        <li>Prepared investment materials for meetings with potential portfolio companies.</li>
+        <li>Gained insights into investment processes and attended investor meetings.</li>
+      </ul>
     </div>
+  </section>
 
-    <div class="section">
-        <h2>Professional Experience</h2>
-        <ul>
-            <li>
-                <strong>L'Oréal</strong> - Shanghai, China (Finance Controlling Department, Summer Intern, May-August 2023)<br>
-                - Prepared and analyzed financial reports using Microsoft Excel.<br>
-                - Ensured accuracy of financial records using SAP.<br>
-                - Presented financial summaries to senior management.
-            </li>
-            <li>
-                <strong>Chayora Limited</strong> - Shanghai, China (Marketing Department, Summer Intern, June-August 2024)<br>
-                - Participated in brand refresh training and website revamp projects.<br>
-                - Added SEO-friendly content to the company's website.
-            </li>
-            <li>
-                <strong>Texas Instruments</strong> - Shanghai, China (Security & Admin Support Department, Summer Intern, August 2021)<br>
-                - Assisted in business project consulting services and administrative management.<br>
-                - Input employee data for HR purposes.
-            </li>
-            <li>
-                <strong>CTC Capital</strong> - Shanghai, China (Summer Intern, July 2021)<br>
-                - Prepared investment materials for meetings with portfolio companies.<br>
-                - Learned about investment processes and attended council meetings.
-            </li>
-        </ul>
+  <section id="activities">
+    <h2>Extracurricular Activities</h2>
+    <div class="content">
+      <p><strong>CSSAUD Women’s Basketball Team Manager</strong> (2022-2024)</p>
+      <ul>
+        <li>Managed team logistics and coordinated events for the University of Hong Kong.</li>
+      </ul>
+      <p><strong>Marketing Director</strong> - Shanghai Bark for Life Core Leadership Team (2020-2022)</p>
+      <ul>
+        <li>Organized marketing campaigns for cancer awareness fundraising events.</li>
+      </ul>
+      <p><strong>Long-term Volunteer</strong> - Shanghai Renewal Centre for the Homeless (2020-2022)</p>
+      <ul>
+        <li>Contributed to community involvement projects supporting underprivileged groups.</li>
+      </ul>
+      <p><strong>Peking University</strong> - International Summer Exchange Program (2023)</p>
+      <p><strong>UIBE Winter School Program</strong> (2025)</p>
     </div>
+  </section>
 
-    <div class="section">
-        <h2>Extracurricular Activities</h2>
-        <ul>
-            <li><strong>CSSAUD Women’s Basketball Team Manager</strong> - The University of Hong Kong (2022-2024)</li>
-            <li><strong>Marketing Director</strong> - Shanghai Bark for Life Core Leadership Team (2020-2022)</li>
-            <li><strong>Long-term Volunteer</strong> - Shanghai Renewal Centre for the Homeless (2020-2022)</li>
-            <li><strong>Peking University</strong> - International Summer Exchange Program (2023)</li>
-            <li><strong>UIBE Winter School Program</strong> - (2025)</li>
-        </ul>
+  <section id="skills">
+    <h2>Skills & Interests</h2>
+    <div class="content">
+      <ul>
+        <li><strong>Technical Skills:</strong> Microsoft Word, Excel, PowerPoint, R, SPSS, SAP, Python</li>
+        <li><strong>Languages:</strong> English (Native), Mandarin (Native)</li>
+        <li><strong>Interests:</strong> Piano (13 years), Yoga (6 years), Community Involvement (4 years)</li>
+      </ul>
     </div>
+  </section>
 
-    <div class="section">
-        <h2>Skills & Interests</h2>
-        <h3>Technical Skills</h3>
-        <div class="skills">
-            <span>Microsoft Word</span>
-            <span>Microsoft Excel</span>
-            <span>Microsoft PowerPoint</span>
-            <span>R</span>
-            <span>SPSS</span>
-            <span>SAP</span>
-            <span>Python</span>
-        </div>
-        <h3>Languages</h3>
-        <p>English (native), Mandarin (native)</p>
-        <h3>Interests</h3>
-        <p>Piano (13 years), Yoga (6 years), Community Involvement (4 years)</p>
-    </div>
-</div>
-
-<footer>
-    <p>&copy; 2025 Hsu Chen Wei. All Rights Reserved.</p>
-</footer>
-
+  <footer>
+    <p>Contact: (+852) 65708870 | <a href="mailto:meganxcw@outlook.com" style="color: #007bff;">meganxcw@outlook.com</a></p>
+    <p>© 2025 Hsu Chen Wei</p>
+  </footer>
 </body>
 </html>
